@@ -47,7 +47,7 @@ public class TianFuJiYun_Clientb {
       config.addAllowedMethod("DELETE");
       config.addAllowedMethod("PATCH");
       source.registerCorsConfiguration("/**",config);
-      return new CorsFilter(source);  
+      return new CorsFilter(source);  //主要jia包不要导错；
   }
 
 
