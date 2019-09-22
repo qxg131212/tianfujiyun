@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029f84f2-0b5f-4539-9175-5684327c92d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/项目说明书" beforeDir="false" afterPath="$PROJECT_DIR$/项目说明书" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../eureka_server/target/" />
@@ -136,13 +136,13 @@
         <counts>
           <entry key="java" value="105" />
           <entry key="txt" value="13" />
-          <entry key="项目说明书" value="353" />
+          <entry key="项目说明书" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="105" />
-          <entry key="PLAIN_TEXT" value="366" />
+          <entry key="PLAIN_TEXT" value="399" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -176,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/项目说明书">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="200">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -185,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/FeignInteerfaceClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="175">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -303,7 +303,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="288" />
     <option name="y" value="35" />
     <option name="width" value="1479" />
@@ -339,7 +339,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569157836706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569157962708" />
     <property name="last_opened_file_path" value="D:/utils/git/GitYong/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -499,7 +499,7 @@
       <workItem from="1568904454520" duration="192000" />
       <workItem from="1568904687439" duration="1015000" />
       <workItem from="1569133173144" duration="4565000" />
-      <workItem from="1569153695806" duration="3432000" />
+      <workItem from="1569153695806" duration="3560000" />
     </task>
     <task id="LOCAL-00001" summary="增加了项目说明书">
       <created>1569156432047</created>
@@ -544,7 +544,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74204000" />
+    <option name="totallyTimeSpent" value="74332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -790,20 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/FeignInteerfaceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -814,10 +800,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/FeignInteerfaceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/项目说明书">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
         </state>
       </provider>
     </entry>
