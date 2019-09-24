@@ -12,8 +12,10 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
+@EnableSwagger2
 //Eureka客户端
 @EnableEurekaClient
 //开启远程服务调用
