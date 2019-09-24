@@ -2,6 +2,9 @@ package com.xg.entity;
 
 import lombok.Data;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Data
 public class User {
 

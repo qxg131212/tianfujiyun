@@ -5,7 +5,9 @@
 4，tianfujiyun_clientb是一个客户端，后缀为b来区分客户端个数，
     里面有fegin的远程调用a服务的接口、及测试。
     main方法下面是跨域请求的配置。外部可直接访问。
-5，tianfujiyun_cloudzuul是网管路由。所有项目皆有网管收发。统筹访问。
-6，tianfujiyun_cloudzipkin暂时没有搞懂。待研究中......................
+5， tianfujiyun_clientc是客户端，后缀为c来区分客户端个数，
+    里面有定时配置， redis的操作，
+6，tianfujiyun_cloudzuul是网管路由。所有项目皆有网管收发。统筹访问。
+7，tianfujiyun_cloudzipkin暂时没有搞懂。待研究中......................
 
 
