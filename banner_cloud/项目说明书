@@ -2,6 +2,7 @@
 2, eureka_server是注册中心,只负责注册
 3，tianfujiyun_clienta是一个客户端，后缀为a来区分客户端个数，
      pojo
+     Map的Demo，1.8的可以学习一下；
 4，tianfujiyun_clientb是一个客户端，后缀为b来区分客户端个数，
     里面有fegin的远程调用a服务的接口、及测试。
     main方法下面是跨域请求的配置。外部可直接访问。
