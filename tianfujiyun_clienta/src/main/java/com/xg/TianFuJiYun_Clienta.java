@@ -8,6 +8,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 //@EnableEurekaClient
 @EnableDiscoveryClient
+        //@HystrixCommand
+        // 开启熔断机制
 @EnableCircuitBreaker
 public class TianFuJiYun_Clienta {
     public static void main(String[] args) {
