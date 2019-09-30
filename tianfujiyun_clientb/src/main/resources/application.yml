@@ -32,6 +32,8 @@ hystrix:
         timeout:
           enabled: false  #禁用hystrix 的超时时间
 
+#feign Map 刚提交  1
+# test 开始       2
 
 
 
