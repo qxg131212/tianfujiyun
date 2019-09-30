@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @HystrixCommand(fallbackMethod = "getMsgfallbace")
-    @RequestMapping("/hello")
+//    @HystrixCommand(fallbackMethod = "getMsgfallbace")
+    @RequestMapping("/hello1")
     public String hello(){
 //        int a = 1/0;   //在正常调用的情况下、我们被调的服务出现问题。就有fallbackMethod的方法返归给调用者；
         return "hello Eureka ! 我是clienta的服务。谢谢调用";

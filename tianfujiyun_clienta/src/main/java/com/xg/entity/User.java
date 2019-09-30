@@ -7,8 +7,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 @Data
 public class User {
@@ -29,6 +28,7 @@ public class User {
         this.address = address;
         this.nian = nian;
     }
+
 /*    public static void main(String[] args) {
         //转化为时间戳  毫秒值
       long time1 = LocalDateTime.now().toInstant(ZoneOffset.of("+8")).toEpochMilli();
@@ -40,4 +40,18 @@ public class User {
         System.out.println("+++"+df);
         System.out.println(df.format(LocalDateTime.ofInstant(Instant.ofEpochMilli(time1), ZoneId.of("Asia/Shanghai"))));
     }*/
+    public static void main(String[] args) {
+        HashMap<Object, Object> map = new HashMap<>();
+        ArrayList<User> list = new ArrayList<>();
+        User user = new User();
+        user.setName("99");
+        user.setName("92");
+        list.add(user);
+//        list.stream()
+//                .map(User::getName);
+        list.stream().forEach(System.out::print);
+
+
+    }
+
 }

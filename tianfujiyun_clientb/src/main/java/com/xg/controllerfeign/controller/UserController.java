@@ -1,11 +1,9 @@
 package com.xg.controllerfeign.controller;
 
-import com.xg.controllerfeign.FeignInteerfaceClient;
+import com.xg.controllerfeign.FeignInterfaceClient;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.aspectj.util.FileUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 public class UserController {
 
     @Autowired
-    private FeignInteerfaceClient feignInteerfaceClient;
+    private FeignInterfaceClient feignInterfaceClient;
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     @ApiOperation(value = "查找用户", notes = "查找用户")
@@ -27,6 +25,6 @@ public class UserController {
         String ss = "nihao woyizhuce";
         request.getSession().setAttribute("exp",lo);
         request.getSession().setAttribute("cc",ss);
-        return  feignInteerfaceClient.Hello();
+        return  feignInterfaceClient.Hello();
     }
 }

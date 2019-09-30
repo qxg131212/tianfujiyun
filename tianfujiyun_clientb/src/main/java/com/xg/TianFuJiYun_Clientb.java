@@ -1,5 +1,6 @@
 package com.xg;
 
+import feign.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
@@ -55,7 +56,5 @@ public class TianFuJiYun_Clientb {
       source.registerCorsConfiguration("/**",config);
       return new CorsFilter(source);  //主要jia包不要导错；
   }
-
-
 
 }

@@ -15,6 +15,23 @@ eureka:
 #  ReadTimeout: 6000  # 请求处理的超时时间
 
 
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+#  该配置是让Hystrix的超时时间改为5秒
+#  方法二
+#hystrix.command.default.execution.timeout.enabled: false
+#  该配置，用于禁用Hystrix的超时时间
+#  方法三
+#feign.hystrix.enabled: false
+hystrix:
+  common:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000  #设置Hystrix的超时时间为5秒；
+        timeout:
+          enabled: false  #禁用hystrix 的超时时间
+
 
 
 
