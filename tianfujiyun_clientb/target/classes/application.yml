@@ -22,6 +22,20 @@ eureka:
 #  该配置，用于禁用Hystrix的超时时间
 #  方法三
 #feign.hystrix.enabled: false
+hystrix:
+  common:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000  #设置Hystrix的超时时间为5秒；
+        timeout:
+          enabled: false  #禁用hystrix 的超时时间
+
+#feign Map 刚提交  1
+# test 开始       2   //1和2 两次commit 一次push上去的；
+# Test12 开始   3
+
 
 
 

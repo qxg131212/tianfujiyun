@@ -40,6 +40,8 @@ public class User {
         System.out.println("+++"+df);
         System.out.println(df.format(LocalDateTime.ofInstant(Instant.ofEpochMilli(time1), ZoneId.of("Asia/Shanghai"))));
     }*/
+
+/*
     public static void main(String[] args) {
         HashMap<Object, Object> map = new HashMap<>();
         ArrayList<User> list = new ArrayList<>();
@@ -52,6 +54,6 @@ public class User {
         list.stream().forEach(System.out::print);
 
 
-    }
+    }*/
 
 }

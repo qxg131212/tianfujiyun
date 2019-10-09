@@ -2,6 +2,7 @@ package com.xg.controllerfeign.config;
 
 import feign.Logger;
 import feign.codec.Encoder;
+import feign.form.spring.SpringFormEncoder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -14,7 +15,8 @@ public class ChuLifeign {
     @Primary
     @Scope("prototype")
     public Encoder getEncoded(){
-        return null;
+        System.out.println("+========="+"Encode编码");
+        return new SpringFormEncoder();
     }
 
     /**
