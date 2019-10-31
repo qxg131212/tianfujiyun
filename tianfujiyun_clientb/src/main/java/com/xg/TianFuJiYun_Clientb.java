@@ -36,7 +36,7 @@ public class TianFuJiYun_Clientb {
     }*/
 
   /**
-   * @Description  此处配置的JSON的跨域请求，只需在此处配置即可，无需其他的jia包。配置等。
+   * @Description  此处配置的JSON的跨域请求，只需在此处配置即可，无需其他的jia包、配置等。
    * @return qiaoxiaogang
    */
   @Bean
