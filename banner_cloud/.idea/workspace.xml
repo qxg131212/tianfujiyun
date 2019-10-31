@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029f84f2-0b5f-4539-9175-5684327c92d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Fo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/TaskTime/DoSomeThing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目说明书" beforeDir="false" afterPath="$PROJECT_DIR$/项目说明书" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clientc/src/test/java/com/xg/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clientc/src/test/java/com/xg/RedisTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../eureka_server/target/" />
@@ -212,7 +199,7 @@
           <entry key="dummy" value="10" />
           <entry key="java" value="7262" />
           <entry key="properties" value="45" />
-          <entry key="txt" value="101" />
+          <entry key="txt" value="115" />
           <entry key="xml" value="199" />
           <entry key="yml" value="370" />
           <entry key="项目说明书" value="163" />
@@ -221,7 +208,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="7262" />
-          <entry key="PLAIN_TEXT" value="274" />
+          <entry key="PLAIN_TEXT" value="288" />
           <entry key="Properties" value="45" />
           <entry key="XML" value="199" />
           <entry key="YAML" value="370" />
@@ -264,7 +251,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="323">
               <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
@@ -381,7 +368,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -480,7 +467,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572509419817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572509652130" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -657,7 +644,7 @@
       <workItem from="1569826647596" duration="5278000" />
       <workItem from="1570516364154" duration="10677000" />
       <workItem from="1570852240372" duration="3017000" />
-      <workItem from="1571121697382" duration="66910000" />
+      <workItem from="1571121697382" duration="67146000" />
     </task>
     <task id="LOCAL-00001" summary="增加了项目说明书">
       <created>1569156432047</created>
@@ -715,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569825751756</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="jdk 1.8 stream">
+      <created>1572509594564</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572509594564</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -751,12 +745,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205550000" />
+    <option name="totallyTimeSpent" value="205786000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -840,7 +835,8 @@
     <MESSAGE value="clienta中Map的练习" />
     <MESSAGE value="clienta中jdk1.8的时间" />
     <MESSAGE value="feign  Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign  Map" />
+    <MESSAGE value="jdk 1.8 stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk 1.8 stream" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java">
@@ -1215,7 +1211,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="323">
           <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
