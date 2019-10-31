@@ -50,7 +50,9 @@ public class Student implements Serializable {
         System.out.println(collect1+"排序");
 
 
-        //******************************
+        //****test
+        //
+        // *************
         Map<String, Object> map = new HashMap<>();
         map = studentList.stream().collect(Collectors.toMap(Student::getSid, Student::getSname));// 这个装map时 ，会剔除所有之前的所有值；
         //  map.putAll(userList.stream().collect(Collectors.toMap(Student::getSage, Student::getSname))); // 这个会在其他的基础上进行新增
@@ -60,12 +62,10 @@ public class Student implements Serializable {
             System.out.println(i);
             System.out.println(map.get(i));
         }
-
         HashMap<String, String> collect2 = studentList.stream()
                 .sorted(Comparator.comparing(Student::getSid))
                 .collect(Collectors.toMap(Student::getSid, Student::getSname, (k1, k2) -> k1, HashMap::new));
         System.out.println(collect2);
-
 
        /*
         String s = null;
