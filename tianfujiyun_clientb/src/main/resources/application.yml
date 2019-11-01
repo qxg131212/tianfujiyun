@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone:  http://localhost:8000/eureka/  #向Eureka服务器8000  进行注册
+      defaultZone:  http://39.106.13.18:8000/eureka/  #向Eureka服务器8000  进行注册
 #ribbon:
 #  MaxAutoRetries: 2 #最大重试次数找到。当Eureka中可以服务，但是服务连接不上将会重试
 #  MaxAutoRetriesNextServer: 3 #切换实例的重试次数

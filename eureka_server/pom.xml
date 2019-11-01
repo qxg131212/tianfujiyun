@@ -8,6 +8,10 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../banner_cloud/pom.xml</relativePath>
     </parent>
+   <!-- <properties>
+        <start-class>com.edu.Application</start-class>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>-->
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>eureka_server</artifactId>
@@ -17,6 +21,15 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

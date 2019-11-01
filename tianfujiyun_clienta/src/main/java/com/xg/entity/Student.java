@@ -3,6 +3,7 @@ package com.xg.entity;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -34,6 +35,9 @@ public class Student implements Serializable {
         Student s4 = new Student("4","王五", "12", "4");
 
         List<Student> studentList = Arrays.asList(s1, s2, s3,s4);
+        List<String> collect3 = studentList.stream().map(student -> student.getSid()).collect(Collectors.toList());
+        System.out.println(collect3+"---9090");
+
         //过滤 年龄大于 21岁，  status为3的student();
         studentList.stream().filter(u -> Integer.valueOf(u.getSage()) >= 21 && Integer.valueOf(u.getStatus()) == 3).forEach(e ->{
             System.out.println(e.getSname());
@@ -49,10 +53,7 @@ public class Student implements Serializable {
                 .collect(Collectors.toList());
         System.out.println(collect1+"排序");
 
-
-        //****test
-        //
-        // *************
+        //****test************
         Map<String, Object> map = new HashMap<>();
         map = studentList.stream().collect(Collectors.toMap(Student::getSid, Student::getSname));// 这个装map时 ，会剔除所有之前的所有值；
         //  map.putAll(userList.stream().collect(Collectors.toMap(Student::getSage, Student::getSname))); // 这个会在其他的基础上进行新增

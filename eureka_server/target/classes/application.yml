@@ -12,5 +12,5 @@ eureka:
     #设置与Eureka Server交互的地址。查询服务和注册服务都需要依赖这个地址，默认为http://localhost:8000/eureka/；多个地址可使用，分割
 #    service.url.defaultZone: http://localhost:8000/eureka/
     service-url:
-      defaultZone: http://localhost:${server.port}/eureka/
+      defaultZone: http://39.106.13.18:${server.port}/eureka/
 

@@ -14,16 +14,17 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
 
-  @Autowired
+//  @Autowired
 //  private  UserDao userDao;
 
     @Override
     public List<User> getAllUser() {
-//        EntityWrapper<User> wrapper = new EntityWrapper<>();
-//        wrapper.eq("uname",1);
+        EntityWrapper<User> wrapper = new EntityWrapper<>();
+        wrapper.eq("uname",1);
 //        List<User> list1 = userDao.selectList(null);
 //        List<User> list = userDao.selectList(wrapper);
         List<User> list = new ArrayList<>();
+        list.add(new User("9","aa"));
         return list;
     }
 }
