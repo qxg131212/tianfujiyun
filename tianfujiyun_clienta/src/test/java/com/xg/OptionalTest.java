@@ -26,7 +26,7 @@ public class OptionalTest {
         ArrayList<User> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             User user = new User();
-            user.setName("华府" + i);
+            user.setUname("华府" + i);
             user.setNian(i + "年");
             user.setAddress(i + "号");
             user.setAge("1" + i);

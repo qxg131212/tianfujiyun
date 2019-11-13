@@ -23,7 +23,7 @@ public class MapTest {
         User user  ;
         for (int i = 0; i < 2 ; i++){
             user = new User();
-            user.setName("huaRen"+i);
+            user.setUname("huaRen"+i);
             user.setAge("2"+i);
             user.setAddress("长"+i+"号");
             user.setNian(i+"年级");
@@ -37,7 +37,7 @@ public class MapTest {
 //        map.put("5","nililiu ");
         // List 转化  Map
         Stream<User> distinct = userList.stream().distinct();
-        map = userList.stream().collect(Collectors.toMap(User::getAge, User::getName));// 这个装map时 ，会剔除所有之前的所有值；
+        map = userList.stream().collect(Collectors.toMap(User::getAge, User::getUname));// 这个装map时 ，会剔除所有之前的所有值；
         //userList.stream().collect(Collectors.toMap(User::getAge, User::getName));// 这个装map时 ，会剔除所有之前的所有值；
 //        map.putAll(userList.stream().collect(Collectors.toMap(User::getAge, User::getName))); // 这个会在其他的基础上进行新增
         Set<String> ints = map.keySet();

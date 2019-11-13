@@ -232,7 +232,7 @@ public class Exports {
             User user = new User();
             List<User> list = new ArrayList<>();
             for (int i = 0; i < 10; i++) {
-                user.setName("xiaoming" + i);
+                user.setUname("xiaoming" + i);
                 user.setAge("1" + i);
                 user.setAddress("雁塔区" + i + "号");
                 list.add(user);
@@ -248,7 +248,7 @@ public class Exports {
                 XSSFCell age = row.createCell(1);
                 XSSFCell adress = row.createCell(2);
 
-                name.setCellValue(temp.getName());
+                name.setCellValue(temp.getUname());
                 age.setCellValue(temp.getAge());
                 adress.setCellValue(temp.getAddress());
 

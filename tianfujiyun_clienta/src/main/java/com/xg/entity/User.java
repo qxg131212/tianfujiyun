@@ -1,6 +1,7 @@
 package com.xg.entity;
 
 import lombok.Data;
+import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
 import java.time.Instant;
@@ -16,7 +17,9 @@ import static java.util.stream.Collectors.toMap;
 @Data
 public class User {
 
-    private String name;
+    private String uid;
+
+    private String uname;
 
     private String age;
 
@@ -24,7 +27,7 @@ public class User {
 
     private String nian;
 
-    public User() {
+/*    public User() {
     }
 
     ;
@@ -39,7 +42,7 @@ public class User {
         this.age = age;
         //this.address = address;
         this.nian = nian;
-    }
+    }*/
 
  /*   public static void main(String[] args) {
         //转化为时间戳  毫秒值
@@ -53,7 +56,16 @@ public class User {
         System.out.println(df.format(LocalDateTime.ofInstant(Instant.ofEpochMilli(time1), ZoneId.of("Asia/Shanghai"))));
     }*/
 
+    public void test(User user){
+            if (user == null || StringUtils.isBlank(user.getAge())){
+                System.out.println(user.getAge());
+                System.out.println("yes");
+            }
+    }
     public static void main(String[] args) {
+        User user = new User();
+        user.setUname("222");
+        user.test(user);
         // init data 合并
         List<Map<String, Object>> query = new ArrayList<>();
         Map<String, Object> e1 = new HashMap<>();

@@ -21,8 +21,8 @@ public class Export_demo {
     public static void export(){
         List<User> studens=new ArrayList<>();
         for (int i = 1; i <=20; i++) {
-            User s=new User(i+"", "a"+i, 20+i-20+"", "三年级");
-            studens.add(s);
+//            User s=new User(i+"", "a"+i, 20+i-20+"", "三年级");
+//            studens.add(s);
         }
 
         HSSFWorkbook wb = new HSSFWorkbook();//创建一个excel文件
@@ -55,7 +55,7 @@ public class Export_demo {
             HSSFCell fens = rows.createCell((short)0);   //--->创建一个单元格
             fens.setCellValue(studens.get(i).getAddress());
             HSSFCell nos = rows.createCell((short)1);   //--->创建一个单元格
-            nos.setCellValue(studens.get(i).getName());
+            nos.setCellValue(studens.get(i).getUname());
             HSSFCell ages = rows.createCell((short)2);   //--->创建一个单元格
             ages.setCellValue(studens.get(i).getAge());
             HSSFCell grages = rows.createCell((short)3);   //--->创建一个单元格
