@@ -8,4 +8,5 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 @Mapper
 public interface UserDao  extends  BaseMapper<User>{
+	public void test();
 }
