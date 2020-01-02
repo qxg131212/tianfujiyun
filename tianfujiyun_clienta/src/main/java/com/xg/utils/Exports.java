@@ -231,12 +231,7 @@ public class Exports {
         try {
             User user = new User();
             List<User> list = new ArrayList<>();
-            for (int i = 0; i < 10; i++) {
-                user.setUname("xiaoming" + i);
-                user.setAge("1" + i);
-                user.setAddress("雁塔区" + i + "号");
-                list.add(user);
-            }
+
             Iterator<User> iterator = list.iterator();
             //遍历写入总数据
             int j = 1;
@@ -248,9 +243,9 @@ public class Exports {
                 XSSFCell age = row.createCell(1);
                 XSSFCell adress = row.createCell(2);
 
-                name.setCellValue(temp.getUname());
+                /*name.setCellValue(temp.getUname());
                 age.setCellValue(temp.getAge());
-                adress.setCellValue(temp.getAddress());
+                adress.setCellValue(temp.getAddress());*/
 
                 j++;
             }

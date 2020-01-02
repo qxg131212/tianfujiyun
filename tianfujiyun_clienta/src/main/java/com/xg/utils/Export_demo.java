@@ -49,18 +49,18 @@ public class Export_demo {
         HSSFCell grage = row2.createCell((short)3);   //--->创建一个单元格
         grage.setCellValue("年级 ");
 
-        for (int i = 0; i <studens .size(); i++) {
+      /*  for (int i = 0; i <studens .size(); i++) {
 //            sheet.addMergedRegion(new CellRangeAddress(1+i+1, (short) 0, 1+i+1, (short)0));
             HSSFRow rows= sheet.createRow(1+i+1);   ////创建第二列 标题
             HSSFCell fens = rows.createCell((short)0);   //--->创建一个单元格
-            fens.setCellValue(studens.get(i).getAddress());
+            fens.setCellValue(studens.get(i).getUAddress());
             HSSFCell nos = rows.createCell((short)1);   //--->创建一个单元格
-            nos.setCellValue(studens.get(i).getUname());
+            nos.setCellValue(studens.get(i).getUAge());
             HSSFCell ages = rows.createCell((short)2);   //--->创建一个单元格
-            ages.setCellValue(studens.get(i).getAge());
+            ages.setCellValue(studens.get(i).getUName());
             HSSFCell grages = rows.createCell((short)3);   //--->创建一个单元格
-            grages.setCellValue(studens.get(i).getNian());
-        }
+            grages.setCellValue(studens.get(i).getURemark());
+        }*/
         FileOutputStream fileOut = null;
         try{
             fileOut = new FileOutputStream("d:\\user.xls");

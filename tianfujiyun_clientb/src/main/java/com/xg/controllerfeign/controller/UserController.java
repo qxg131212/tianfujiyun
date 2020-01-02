@@ -4,6 +4,7 @@ import com.xg.controllerfeign.FeignInterfaceClient;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +18,7 @@ public class UserController {
     @Autowired
     private FeignInterfaceClient feignInterfaceClient;
 
-    @RequestMapping(value = "/hello",method = RequestMethod.GET)
+    @GetMapping(value = "/hello")
     @ApiOperation(value = "查找用户", notes = "查找用户")
     public String hello(HttpServletRequest request){
         //60s过期

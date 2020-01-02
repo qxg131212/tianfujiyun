@@ -8,7 +8,7 @@ spring:
     username: root
     password: password
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/qjdy?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     #默认首页的访问配置
 #  thymeleaf:
 #    cache: false        # 开发时关闭缓存,不然没法看到实时页面
@@ -28,7 +28,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone:  http://39.106.13.18:8000/eureka/   #向Eureka服务器8000  进行注册
+      defaultZone:  http://10.3.6.82:8000/eureka/   #向Eureka服务器8000  进行注册
+#      defaultZone:  http://39.106.13.18:8000/eureka/   #向Eureka服务器8000  进行注册
 
 mybatis-plus:
   mapper-locations: classpath:mapper/**/*Mapper.xml
