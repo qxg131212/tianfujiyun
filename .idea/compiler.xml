@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka_server" />
+        <module name="tianfujiyun_clienta" />
+        <module name="tianfujiyun_clientb" />
+        <module name="tianfujiyun_clientc" />
+        <module name="tianfujiyun_cloudzipkin" />
+        <module name="tianfujiyun_cloudzuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="banner_cloud" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="tianfujiyun_clienta" target="1.8" />
+      <module name="tianfujiyun_clientb" target="1.8" />
+      <module name="tianfujiyun_clientc" target="1.8" />
+      <module name="tianfujiyun_cloudzipkin" target="1.8" />
+      <module name="tianfujiyun_cloudzuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
