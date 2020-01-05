@@ -3,5 +3,18 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tianfujiyun_cloudzuul/pom.xml" />
+        <option value="$PROJECT_DIR$/tianfujiyun_cloudzipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/tianfujiyun_clientc/pom.xml" />
+        <option value="$PROJECT_DIR$/tianfujiyun_clientb/pom.xml" />
+        <option value="$PROJECT_DIR$/tianfujiyun_clienta/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/banner_cloud/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
