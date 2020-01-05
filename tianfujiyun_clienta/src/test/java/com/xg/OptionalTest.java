@@ -24,14 +24,14 @@ public class OptionalTest {
         int dayOfMonth = date.getDayOfMonth();  //获得天数
         System.out.println(year+"=="+monthValue);
         ArrayList<User> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        /*for (int i = 0; i < 10; i++) {
             User user = new User();
             user.setUname("华府" + i);
             user.setNian(i + "年");
             user.setAddress(i + "号");
             user.setAge("1" + i);
             list.add(user);
-        }
+        }*/
         Optional<ArrayList<User>> present = Optional.ofNullable(list);
         System.out.println(present + "==");
 

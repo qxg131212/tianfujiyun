@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029f84f2-0b5f-4539-9175-5684327c92d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/biz/UserServiceBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseFo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/TableResultResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UsersFo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka_server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka_server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka_server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/DefaultView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/DefaultView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Fo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UserFo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Export_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Export_demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Exports.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Exports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/TianFuJiYun_Clienta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/TianFuJiYun_Clienta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/utils/Export_demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/utils/Export_demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/utils/Exports.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clienta/target/classes/com/xg/utils/Exports.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../eureka_server/target/" />
@@ -162,56 +192,61 @@
     <session id="498132711">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="12" />
+          <entry key="class" value="32" />
           <entry key="gitignore" value="7" />
-          <entry key="java" value="157" />
+          <entry key="html" value="7" />
+          <entry key="java" value="252" />
           <entry key="properties" value="2" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="12" />
-          <entry key="yml" value="11" />
-          <entry key="项目说明书" value="14" />
+          <entry key="xml" value="20" />
+          <entry key="yml" value="19" />
+          <entry key="项目说明书" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="157" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="CLASS" value="32" />
+          <entry key="HTML" value="7" />
+          <entry key="JAVA" value="252" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="12" />
-          <entry key="YAML" value="11" />
+          <entry key="XML" value="20" />
+          <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="10" />
-          <entry key="java" value="7262" />
+          <entry key="dummy" value="25" />
+          <entry key="html" value="53" />
+          <entry key="java" value="11419" />
           <entry key="properties" value="45" />
-          <entry key="txt" value="115" />
-          <entry key="xml" value="199" />
-          <entry key="yml" value="370" />
+          <entry key="txt" value="141" />
+          <entry key="xml" value="336" />
+          <entry key="yml" value="616" />
           <entry key="项目说明书" value="163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7262" />
-          <entry key="PLAIN_TEXT" value="288" />
+          <entry key="HTML" value="53" />
+          <entry key="JAVA" value="11419" />
+          <entry key="PLAIN_TEXT" value="329" />
           <entry key="Properties" value="45" />
-          <entry key="XML" value="199" />
-          <entry key="YAML" value="370" />
+          <entry key="XML" value="336" />
+          <entry key="YAML" value="616" />
         </counts>
       </usages-collector>
     </session>
@@ -219,10 +254,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Impl.java">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/ExcelExportServiceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -231,28 +311,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UsersFo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3753">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="333">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="method#main#0;class#User#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -264,6 +359,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -275,6 +371,10 @@
       <find>header</find>
       <find>CorsFilter</find>
       <find>userlist</find>
+      <find>connector</find>
+      <find>DruidDataSource</find>
+      <find>thymeleaf</find>
+      <find>IntSummaryStatistics</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -284,42 +384,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/ReadxlsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/PoiTest.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Export.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/ExcelExportServiceController.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/ExcelExportServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Export_demo.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Exports.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_cloudzuul/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientc/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/config/Quartz.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientc/pom.xml" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/TianFuJiYun_Clientc.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/utils/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/sms/service/SendMes.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/sms/service/ipml/SendMesIpml.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/sms/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/sms/controller/SmsController.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/FeignInteerfaceClient.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/privates/projects/ConfigProperties.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/privates/projects/VerCodeController.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/privates/projects/ConfigEntity.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/impl/FeignInterfaceClientImpl.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/FeignInterfaceClient.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clientb/pom.xml" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/config/ChuLifeign.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/pom.xml" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/WrapperFo.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Impl.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Test.java" />
@@ -330,11 +402,39 @@
         <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Person.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Fo.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/LambdaTest.java" />
-        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java" />
+        <option value="$PROJECT_DIR$/../eureka_server/pom.xml" />
         <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/webapp/WEB-INF/index.html" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/DefiaultView.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/ExcelExportServiceController.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/addViewControllers.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/DefaultView.java" />
+        <option value="$PROJECT_DIR$/../eureka_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/TableResultResponse.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Exports.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Export_demo.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseFo.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/Fo.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UserFo.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/biz/UserServiceBiz.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/biz/impl/UserServiceBizImpl.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UsersFo.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/pom.xml" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java" />
       </list>
     </option>
   </component>
@@ -362,6 +462,29 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tianfujiyun_clienta" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tianfujiyun_clienta" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="tianfujiyun_cloudzuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
@@ -369,9 +492,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="-14" />
+    <option name="y" value="10" />
+    <option name="width" value="1904" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -388,6 +511,21 @@
           <expand>
             <path>
               <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -421,7 +559,67 @@
               <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="fo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clienta" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -452,6 +650,38 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clientb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clientb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_clientb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xg" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banner_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianfujiyun_cloudzipkin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,35 +691,36 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572509652130" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577961229057" />
+    <property name="last_opened_file_path" value="E:/project -demo/springboot_start001_idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xg.entity" />
       <recent name="com.xg.config" />
+      <recent name="com.xg.entity" />
       <recent name="com.xg.sms.config" />
       <recent name="com.xg" />
       <recent name="com.xg.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\util\tianfujiyun\tianfujiyun_clienta\src\main\resources\static" />
+      <recent name="D:\util\tianfujiyun\tianfujiyun_clienta\src\main" />
+      <recent name="D:\util\tianfujiyun\tianfujiyun_clienta\src\main\resources\templates" />
       <recent name="D:\util\tianfujiyun\tianfujiyun_cloudzuul" />
       <recent name="D:\util\tianfujiyun\tianfujiyun_cloudzipkin" />
-      <recent name="D:\util\tianfujiyun\tianfujiyun_clientc" />
-      <recent name="D:\util\tianfujiyun\tianfujiyun_clientb" />
-      <recent name="D:\util\tianfujiyun\tianfujiyun_clienta" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -504,26 +735,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
-    <configuration name="Fo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xg.entity.Fo" />
-      <module name="tianfujiyun_clienta" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xg.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.User">
     <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xg.entity.Student" />
       <module name="tianfujiyun_clienta" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xg.entity.*" />
+          <option name="PATTERN" value="com.xg.entity.fo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -536,7 +754,20 @@
       <module name="tianfujiyun_clienta" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xg.entity.*" />
+          <option name="PATTERN" value="com.xg.entity.fo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserFo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xg.entity.fo.UserFo" />
+      <module name="tianfujiyun_clienta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xg.entity.fo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -560,18 +791,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.Optional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tianfujiyun_clienta" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xg.TaskTime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xg" />
-      <option name="MAIN_CLASS_NAME" value="com.xg.OptionalTest" />
-      <option name="METHOD_NAME" value="Optional" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xg.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -589,21 +811,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TianFuJiYun_Clientb" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tianfujiyun_clientb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xg.TianFuJiYun_Clientb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.TianFuJiYun_Clienta" />
-      <item itemvalue="JUnit.OptionalTest.Optional" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Application.User" />
       <item itemvalue="JUnit.MapTest.get" />
-      <item itemvalue="Application.Fo" />
+      <item itemvalue="Application.UserFo" />
       <item itemvalue="Application.Student" />
+      <item itemvalue="Spring Boot.TianFuJiYun_Clientb" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Student" />
         <item itemvalue="Application.User" />
-        <item itemvalue="Application.Fo" />
+        <item itemvalue="Spring Boot.TianFuJiYun_Clientb" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.UserFo" />
         <item itemvalue="JUnit.MapTest.get" />
-        <item itemvalue="JUnit.OptionalTest.Optional" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +880,8 @@
       <workItem from="1569826647596" duration="5278000" />
       <workItem from="1570516364154" duration="10677000" />
       <workItem from="1570852240372" duration="3017000" />
-      <workItem from="1571121697382" duration="67146000" />
+      <workItem from="1571121697382" duration="83198000" />
+      <workItem from="1572589454276" duration="70500000" />
     </task>
     <task id="LOCAL-00001" summary="增加了项目说明书">
       <created>1569156432047</created>
@@ -709,7 +946,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572509594564</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jdk 1.8 stream">
+      <created>1572510515845</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572510515845</updated>
+    </task>
+    <task id="LOCAL-00011" summary="云服务连接成功a and b">
+      <created>1572589908990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572589908990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2019-11-13下午">
+      <created>1573637424501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573637424501</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -745,14 +1003,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205786000" />
+    <option name="totallyTimeSpent" value="292338000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-14" y="10" width="1904" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79310346" visible="true" weight="0.1626898" />
+      <window_info id="Structure" order="1" sideWeight="0.20689656" side_tool="true" visible="true" weight="0.1626898" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -761,65 +1028,30 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.14349277" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18798666" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.23248054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2925473" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49897888" weight="0.19596864" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49897888" weight="0.40711904" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32814237" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010211" side_tool="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.26028922" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2836485" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.2955289" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.27586207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.17788461" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.16684435" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.329602" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.329602" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.15684094" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6136618" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49897888" weight="0.19596864" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32814237" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010211" side_tool="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.26028922" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.2955289" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.17788461" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.329602" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.329602" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -836,383 +1068,501 @@
     <MESSAGE value="clienta中jdk1.8的时间" />
     <MESSAGE value="feign  Map" />
     <MESSAGE value="jdk 1.8 stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdk 1.8 stream" />
+    <MESSAGE value="云服务连接成功a and b" />
+    <MESSAGE value="2019-11-13下午" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-11-13下午" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/config/ChuLifeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/test/java/com/xg/TestFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/FeignInterfaceClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/application.yml">
+    <entry file="jar://E:/idea/util/localRep/commons-lang/commons-lang/2.4/commons-lang-2.4-sources.jar!/org/apache/commons/lang/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="178">
+          <caret line="225" column="26" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/ReadxlsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/webapp/WEB-INF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/DefiaultView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/webapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/idea/util/localRep/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/idea/util/localRep/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/ExcelExportService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/idea/util/localRep/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1546">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/ExcelExportServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-1107">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_cloudzuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Exports.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="93" column="22" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="25" />
+        <state relative-caret-position="-309">
+          <caret line="245" column="18" selection-start-line="245" selection-start-column="16" selection-end-line="247" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../eureka_server/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_cloudzipkin/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_cloudzuul/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="834">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/localRep/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/builders/JUnit4Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="715" column="54" lean-forward="true" selection-start-line="715" selection-start-column="54" selection-end-line="715" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/WrapperFo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/IntSummaryStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/config/Quartz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/TaskTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/test/java/com/xg/RedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/utils/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/TianFuJiYun_Clientc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientc/src/main/java/com/xg/TaskTime/DoSomeThing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目说明书">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="136" column="58" lean-forward="true" selection-start-line="136" selection-start-column="58" selection-end-line="136" selection-end-column="58" />
-          <folding>
-            <element signature="e#5034#5035#0" expanded="true" />
-            <element signature="e#5067#5068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/stream/BaseStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8046">
-          <caret line="358" column="18" selection-start-line="358" selection-start-column="18" selection-end-line="358" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-          <folding>
-            <element signature="e#3486#3487#0" expanded="true" />
-            <element signature="e#3544#3545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/idea/util/localRep/org/springframework/boot/spring-boot-test/2.0.3.RELEASE/spring-boot-test-2.0.3.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../eureka_server/src/main/java/com/xg/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java">
+    <entry file="file://$PROJECT_DIR$/../eureka_server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="189">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="55" column="51" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="51" />
+        <state relative-caret-position="189">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="108" column="27" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="27" />
+        <state relative-caret-position="810">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Fo.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/utils/Export_demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="-53">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="6" selection-end-line="62" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/TableResultResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="25" column="5" selection-start-line="22" selection-start-column="46" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="419">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="117" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Person.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="297">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Impl.java">
+    <entry file="jar://E:/idea/util/localRep/org/springframework/data/spring-data-commons/2.0.8.RELEASE/spring-data-commons-2.0.8.RELEASE.jar!/org/springframework/data/domain/Page.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="162">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseFo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/common/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/idea/util/localRep/com/baomidou/mybatis-plus-support/2.2.0/mybatis-plus-support-2.2.0.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/LambdaTest.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/biz/impl/UserServiceBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="-3953">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2302#2303#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2519#2520#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2617#2618#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2745#2746#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2848#2849#0" expanded="true" />
+            <element signature="e#2914#2915#0" expanded="true" />
+            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+            <element signature="e#3049#3050#0" expanded="true" />
+            <element signature="e#3117#3118#0" expanded="true" />
+            <element signature="e#3144#3145#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3235#3236#0" expanded="true" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3335#3336#0" expanded="true" />
+            <element signature="e#3402#3403#0" expanded="true" />
+            <element signature="e#3429#3430#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#3619#3620#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3776#3777#0" expanded="true" />
+            <element signature="e#3866#3867#0" expanded="true" />
+            <element signature="e#3893#3894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/biz/UserServiceBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/PoiTest.java">
+    <entry file="jar://E:/idea/util/localRep/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="378">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/test/java/com/xg/OptionalTest.java">
+    <entry file="jar://E:/idea/util/localRep/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="60" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="186">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/idea/util/localRep/com/baomidou/mybatis-plus-support/2.2.0/mybatis-plus-support-2.2.0.jar!/com/baomidou/mybatisplus/mapper/EntityWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UserFo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/DefaultView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/function/BiConsumer.java">
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="83" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/idea/util/JDK/src.zip!/java/util/function/ToIntFunction.java">
+    <entry file="file://$PROJECT_DIR$/项目说明书">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="141" column="19" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/TianFuJiYun_Clientb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/TianFuJiYun_Clienta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/ExcelExportServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clientb/src/main/java/com/xg/controllerfeign/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/fo/UsersFo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/idea/util/localRep/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3753">
-          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tianfujiyun_clienta/src/main/java/com/xg/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="333">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="method#main#0;class#User#0" />
+          </folding>
         </state>
       </provider>
     </entry>

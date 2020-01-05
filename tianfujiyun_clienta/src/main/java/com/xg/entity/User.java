@@ -1,9 +1,17 @@
 package com.xg.entity;
 
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.Serializable;
+import java.sql.Timestamp;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -14,58 +22,35 @@ import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toMap;
 
+@TableName("q_user")
 @Data
-public class User {
+public class User implements Serializable {
 
-    private String uid;
+    private String u_id;
 
-    private String uname;
+    private String u_name;
 
-    private String age;
+    private int u_age;
 
-    private String address;
+    private String u_address;
 
-    private String nian;
+    private String u_old_address;
 
-/*    public User() {
-    }
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private Date u_create_time;
 
-    ;
+    private boolean u_delete;
 
-    public User(String age, String address) {
-        this.age = age;
-        this.address = address;
-    }
+    private String u_remark;
 
-    public User(String name, String age, String address, String nian) {
-        this.name = name;
-        this.age = age;
-        //this.address = address;
-        this.nian = nian;
-    }*/
+    private String u_education;
 
- /*   public static void main(String[] args) {
-        //转化为时间戳  毫秒值
-      long time1 = LocalDateTime.now().toInstant(ZoneOffset.of("+8")).toEpochMilli();
-       System.out.println(time1);
-        long time2 = System.currentTimeMillis();
-        System.out.println(time2+"=======");
-        //时间戳转化为localdatetime
-        DateTimeFormatter df= DateTimeFormatter.ofPattern("YYYY-MM-dd HH:mm:ss.SSS");
-        System.out.println("+++"+df);
-        System.out.println(df.format(LocalDateTime.ofInstant(Instant.ofEpochMilli(time1), ZoneId.of("Asia/Shanghai"))));
-    }*/
+    private String u_occupation;
 
-    public void test(User user){
-            if (user == null || StringUtils.isBlank(user.getAge())){
-                System.out.println(user.getAge());
-                System.out.println("yes");
-            }
-    }
+    private String u_industry;
+
     public static void main(String[] args) {
-        User user = new User();
-        user.setUname("222");
-        user.test(user);
         // init data 合并
         List<Map<String, Object>> query = new ArrayList<>();
         Map<String, Object> e1 = new HashMap<>();
@@ -92,6 +77,7 @@ public class User {
         e3.put("price", 300);
         query.add(e3);
         List<List<Map<String, Object>>> listOne = new ArrayList<>();
+        // 以name 和 price 分组相同的分组 ，
         query.stream().collect(Collectors.groupingBy(m -> m.get("name").toString() + "#" + m.get("price"))).forEach((k, value) -> {
             listOne.add(value);
         });
@@ -107,21 +93,7 @@ public class User {
                 }).collect(Collectors.toList());
         System.out.println(result1);
         //***************************************
-        List<HashMap<String, Object>> group_no = query.stream()
-                .collect(Collectors.groupingBy(q -> q.get("group_no")))
-                .entrySet()
-                .stream()
-                .map(e -> {
-                    HashMap<String, Object> inner = new HashMap<>();
-                    List<Map<String, Object>> newList = e.getValue().stream().map(v -> {
-                        v.remove("group_no");
-                        return v;
-                    }).collect(Collectors.toList());
-                    inner.put("attributelist", newList);
-                    inner.put("group_no", e.getKey());
-                    return inner;
-                }).collect(Collectors.toList());
-        //System.out.println(JSON.toJSONString(group_no));
+
         List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
         list.add(e1);
         list.add(e2);
@@ -134,14 +106,14 @@ public class User {
             slist.stream().collect(Collectors.summarizingLong(e -> Integer.valueOf(e.get("price").toString())));
             nmap.put("name", slist.get(0).get("name"));
 
-            System.out.println(nmap);
+            System.out.println(nmap +"=====");
         });
         glist.forEach((k, slist) -> {
             Map<String, Object> nmap = new HashMap<>();
             IntSummaryStatistics sumcc = slist.stream().collect(Collectors.summarizingInt(e -> Integer.valueOf(e.get("price").toString())));
             nmap.put("name", slist.get(0).get("name"));
             nmap.put("price", sumcc.getSum());//求和
-            nmap.put("age", sumcc.getMax());//求和
+            nmap.put("age", sumcc.getMax());//
             result.add(nmap);
         });
         System.out.println("--------testMerge-------------");
