@@ -30,9 +30,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public TableResultResponse getAllUser(UserFo userFo) {
-        EntityWrapper<User> wrapper = new EntityWrapper<>();
-        wrapper.eq("u_delete",0);
-        List<User> list = userDao.selectList(wrapper);
+        if (userFo == null) {
+            return new TableResultResponse();
+        }
+        List<User> list = userDao.selectList(userFo.getEntityWrapper());
         TableResultResponse response = new TableResultResponse(list.size(), list);
         return response;
     }
@@ -61,7 +62,7 @@ public class UserServiceImpl implements UserService {
             response.setMessage("参数为空");
             return response;
         }
-        if (StringUtils.isBlank(usersFo.getU_id())) {
+        if (StringUtils.isNotBlank(usersFo.getU_id())) {
             User user = userDao.selectById(usersFo.getU_id());
             if (user == null) {
                 response.setMessage("暂无此数据");
@@ -72,6 +73,19 @@ public class UserServiceImpl implements UserService {
             response.setMessage("更新成功");
             return response;
         }
+        // **********问题同上可以搞起来***********
+        /*EntityWrapper<User> wrapper = new EntityWrapper<>();
+        if (StringUtils.isBlank(usersFo.getU_name())) {
+            wrapper.eq("u_name",usersFo.getU_name());
+            List<User> users = userDao.selectList(wrapper);
+            if (users != null) {
+                response.setMessage("此名字已存在，重名后面加1或者大小区分");
+                return  response;
+            }
+        }
+
+        */
+        // *********************
         User user = new User();
         user.setU_delete(false);
         user.setU_id(UUID.randomUUID().toString());

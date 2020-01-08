@@ -3,11 +3,14 @@ package com.xg.entity.fo;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.xg.entity.User;
 
+import java.io.Serializable;
 import java.util.Optional;
 
 import static org.skyscreamer.jsonassert.JSONAssert.assertEquals;
 
-public class UserFo {
+public class UserFo implements Serializable {
+
+    private static final long serialVersionUID = 1L;
     /**
      *查询字段name
      */
@@ -34,8 +37,10 @@ public class UserFo {
         this.age = age;
     }
 
-    public UserFo(){
+    public EntityWrapper getEntityWrapper(){
         EntityWrapper<User> wrapper = new EntityWrapper<>();
         wrapper.orderBy("u_create_time");
+        wrapper.eq("u_delete",0);
+        return  wrapper;
     }
 }

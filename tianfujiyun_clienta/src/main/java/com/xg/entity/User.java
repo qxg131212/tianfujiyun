@@ -22,9 +22,13 @@ import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toMap;
 
+/**
+ *
+ */
 @TableName("q_user")
 @Data
 public class User implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private String u_id;
 

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.thymeleaf:thymeleaf-spring4:unknown">
     <CLASSES>
-      <root url="jar://E:/utils/apache-maven-3.6.0-bin/localRep/org/thymeleaf/thymeleaf-spring4/unknown/thymeleaf-spring4-unknown.jar!/" />
+      <root url="jar://E:/idea/util/localRep/org/thymeleaf/thymeleaf-spring4/unknown/thymeleaf-spring4-unknown.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://E:/utils/apache-maven-3.6.0-bin/localRep/org/thymeleaf/thymeleaf-spring4/unknown/thymeleaf-spring4-unknown-javadoc.jar!/" />
+      <root url="jar://E:/idea/util/localRep/org/thymeleaf/thymeleaf-spring4/unknown/thymeleaf-spring4-unknown-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://E:/utils/apache-maven-3.6.0-bin/localRep/org/thymeleaf/thymeleaf-spring4/unknown/thymeleaf-spring4-unknown-sources.jar!/" />
+      <root url="jar://E:/idea/util/localRep/org/thymeleaf/thymeleaf-spring4/unknown/thymeleaf-spring4-unknown-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
