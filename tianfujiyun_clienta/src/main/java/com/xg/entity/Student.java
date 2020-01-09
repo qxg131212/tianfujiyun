@@ -39,12 +39,10 @@ public class Student implements Serializable {
         Pattern compile1 = Pattern.compile(regex);
         Matcher matcher1 = compile1.matcher(ss);
         flag  = matcher1.matches();
-        System.out.println(flag+"--9999");
         if(flag) {
             try {
                 String sq = ss.substring(ss.indexOf("（") + 1, ss.indexOf("）"));
-                System.out.println(sq);
-                String  reg = "[0-9]{1,}分"; 
+                String  reg = "[0-9]{1,}分";
                 Pattern compile = Pattern.compile(reg);
                 Matcher matcher = compile.matcher(sq);
                 flag = matcher.matches();

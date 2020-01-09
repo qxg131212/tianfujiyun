@@ -16,7 +16,7 @@ public class DoSomeThing implements ApplicationRunner {
     //日指定义
     Logger LOGGER = LoggerFactory.getLogger(DoSomeThing.class);
 
-    @Scheduled(cron = "")
+    @Scheduled(cron = "*/5 * * * * ?") // 5秒一次的干活
     public void SomeThing(){
         LOGGER.info("加工开始时间"+ LocalDate.now());
         List<Object> list = new ArrayList<>();
