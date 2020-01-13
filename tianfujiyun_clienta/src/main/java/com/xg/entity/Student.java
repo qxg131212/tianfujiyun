@@ -33,7 +33,7 @@ public class Student implements Serializable {
     }
 
     public static void main(String[] args) {
-        String ss = "你好的奥迪900881（0分）";
+        String ss = "你好的0881（0分）";
         boolean flag = false;
         String regex="[^\\(\\)]+";
         Pattern compile1 = Pattern.compile(regex);
