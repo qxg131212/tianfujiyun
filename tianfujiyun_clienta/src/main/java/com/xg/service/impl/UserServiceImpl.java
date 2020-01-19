@@ -2,6 +2,7 @@ package com.xg.service.impl;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.xg.biz.UserServiceBiz;
+import com.xg.biz.impl.UserServiceBizImpl;
 import com.xg.common.BaseResponse;
 import com.xg.common.TableResultResponse;
 import com.xg.dao.UserDao;
@@ -10,17 +11,23 @@ import com.xg.entity.fo.UserFo;
 import com.xg.entity.fo.UsersFo;
 import com.xg.service.UserService;
 import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import sun.rmi.runtime.Log;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+
 @Service
 public class UserServiceImpl implements UserService {
+
+    private static final Logger logger = LoggerFactory.getLogger(UserServiceBizImpl.class);
 
     @Autowired
     private  UserDao userDao;
@@ -33,7 +40,9 @@ public class UserServiceImpl implements UserService {
         if (userFo == null) {
             return new TableResultResponse();
         }
+        logger.info("查询条件："+userFo.getEntityWrapper());
         List<User> list = userDao.selectList(userFo.getEntityWrapper());
+        logger.info("结果为:"+userDao.selectList(userFo.getEntityWrapper()).toString());
         TableResultResponse response = new TableResultResponse(list.size(), list);
         return response;
     }

@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.persistence.Id;
 import java.io.Serializable;
 import java.sql.Timestamp;
 import java.time.Instant;
@@ -30,6 +31,7 @@ import static java.util.stream.Collectors.toMap;
 public class User implements Serializable {
     private static final long serialVersionUID = 1L;
 
+    @Id
     private String u_id;
 
     private String u_name;
