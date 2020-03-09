@@ -17,6 +17,7 @@ public class UserController {
     @Autowired
     private FeignInterfaceClient feignInterfaceClient;
 
+
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     @ApiOperation(value = "查找用户", notes = "查找用户")
     public String hello(HttpServletRequest request){

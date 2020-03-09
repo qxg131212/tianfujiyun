@@ -1,4 +1,4 @@
-1, banner是父项目，只负责jia的管理
+1, banner是父项目，只负责jre的管理
 2, eureka_server是注册中心,只负责注册
 3，tianfujiyun_clienta是一个客户端，后缀为a来区分客户端个数，
      pojo
